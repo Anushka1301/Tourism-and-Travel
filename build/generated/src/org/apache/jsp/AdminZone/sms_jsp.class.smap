@@ -1,0 +1,18 @@
+SMAP
+sms_jsp.java
+JSP
+*S JSP
+*F
++ 0 sms.jsp
+AdminZone/sms.jsp
++ 1 header.jsp
+AdminZone/../AdminZone/header.jsp
++ 2 footer.jsp
+AdminZone/../AdminZone/footer.jsp
+*L
+1,16:50
+5#1,29:66
+16#0,2:94
+5#2,23:96
+17#0,3:118
+*E

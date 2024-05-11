@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/font-awesome.min.css" rel="stylesheet"/>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/hover-min.css" rel="stylesheet"/>
+
+<style>
+     .form-control::placeholder
+            {
+                font-family: monotype corsiva;
+                font-size: 18px;
+                    color: #204e6a;
+            }
+.d2
+{
+min-height:300px
+}
+.d1
+{
+height:80px;
+width:80px;
+background:white;
+float:left;
+margin-left:10px;
+margin-top:10px;
+}
+.c1
+{position:fixed;z-index:100;width:100%;top:0}
+.c1
+{position:fixed;z-index:100;width:100%;top:0}
+body{
+    overflow-x: hidden;
+}
+</style>
+<script>
+$(document).ready(function(){
+$(window).scroll(function(){
+if($(this).scrollTop() >45) {
+$('#h').addClass("c1");
+}
+else
+{
+$('#h').removeClass("c1");
+}
+});
+});
+</script>
+    </head>
+    <body>
+     <!--------start Header code------>
+<div class="container-fluid">
+<div class="row" style="color: white;background:black; height:70px;">
+<!--    <div class="col-sm-1">+8423747451</div>-->
+    <div class="col-sm-9"></div>
+    <div class="col-sm-2" style="text-align: right;">
+        <a href="https://www.facebook.com"><span class="fa fa-facebook-square" style="color:blue;font-size:30px"></span></a>
+        <a href="https://web.whatsapp.com/"><span class="fa fa-whatsapp" style="color:palegreen;font-size:30px"></span></a>
+        <a href="https://twitter.com/i/notifications/"><span class="fa fa-instagram" style="color:red;font-size:30px"></span></a>
+    </div>
+</div>
+<!-----------code for menu------------>
+<div class="row">
+<nav class="navbar navbar-default" style="background:#204e6a;min-height:95px;line-height:95px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="#">Brand</a>
+	  <img src="taj.jpg" style="height:80px;width:80px" />--->
+	  <span style="color:white;font-weight:bold;font-size:25px;margin-bottom:5px;"><b>TOURISM</b></span>
+	  <span style="color:#a1a1a1;position:relative;top:20px;left:-49%;">LIFE IS LIKE JOURNEY</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!----<ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>----->
+     <!------ <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>---->
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.jsp" style="color:white;margin-top:15px;"><b>Home</b></a></li>
+          <li><a href="membership.html" style="color:white;margin-top:15px;"><b>Membership</b></a></li>
+        <li><a href="visa.html" style="color:white;margin-top:15px;"><b>Visa Policy</b></a></li>
+        <li class="dropdown">
+          <a href="reach.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;margin-top:15px;"><b>How To Reach </b><span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background:#4c5b7d;">
+            <li><a href="bus.html" style="color:white;background:#4c5b7d;padding:0px;"> <b>By road ways</b> </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="train.html" style="color:white;background:#4c5b7d;"> <b>By Train</b></a></li>
+			 <li role="separator" class="divider"></li>
+            <li><a href="plan.html" style="color:white;background:#4c5b7d;"> <b>By flight</b></a></li>
+          </ul>
+        </li>
+		 <li class="dropdown">
+          <a href="destination.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;margin-top:15px;"><b>Destination</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background:#4c5b7d;">
+            <li><a href="regoies.html" style="color:white;background:#4c5b7d;"> <b>Regoins</b>  </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="foreign.html" style="color:white;background:#4c5b7d;"><b> Foreign</b></a></li>
+			
+          </ul>
+        </li>
+		<li><a href="login.html" style="color:white;margin-top:15px;"><b>Login</b></a></li>      
+       <li><a href="reviwe.html" style="color:white;margin-top:15px;"><b>Review</b></a></li>     
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+</div>
+        <!-------start Form---->
+        <div class="row" style="background-image:url('img/bus4.jpg');background-size: 100% 100%;min-height:600px">
+    <div class="col-sm-3"></div>
+   
+    <div class="col-sm-6" style="background:rgba(1.5,0.5,0.5,0.34);margin-top:60px;font-family:algerian;min-height:490px">
+        <div class="col-sm-12" style="color:white;height: 50px;text-align: center;font-size: 50px;line-height: 50px;font-weight:bold;font-family:algerian;">BOOK NOW</div>
+        <form action="codes/book.jsp" method="post"  style="color:white">
+            
+         Name:
+         <input type="text" name="name" class="form-control" placeholder="Enter Name" required="required"/><br>
+        
+        Mobile Number
+        <input type="number" name="mobile" class="form-control"placeholder="Enter Mobile Number"/><br>
+         Cabs:
+        <select name="cabs" class="form-control">
+            <option>Select Cabs</option>
+            <option>Luxury Bus</option>
+            <option>Two Stairs Bus</option>
+            <option>Simple Bus</option>
+            
+            
+            <option>AUDI</option>
+            <option>RANGE ROVER</option>
+            <option>MERCEDESE</option>
+            
+            
+            <option>Ludhiana</option>
+            <option>Superfast</option>
+            <option>Passenger</option>
+            <option>MERCEDESE</option>
+            <option>Air India</option>
+            <option>Indigo</option>
+            <option>Gol</option>
+            <option>Emirats</option>
+            <option>Gmg</option>
+            <option>Gol</option>
+        </select><br>
+        Address:
+        <input type="text" name="address" class="form-control" placeholder="Enter Address"/><br> 
+        Date:
+        <input type="text" name="bdt" class="form-control" placeholder="MM/DD/YYY"/><br>
+             <input type="submit" class="btn btn-success"
+               value="Book Now" style="margin-left:40%;color:white;background:rgba(1.5,0.5,0.5,0.34);font-weight:bold"/>
+             
+</form>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+       
+    <!----start footer code----->
+<div class="row" style="background:#204e6a;color:white;min-height:300;padding:0px">
+<div class="col-sm-3">
+<h3 style="padding-left:20%;font-weight:bold;">Our View</h3><br>
+<span style="padding-top:40%;font-weight:bold;">travel and tourism is the largest service of india. it provides heritage, cultural, medical, business, and sports tourism. the main objective of this sector is to develop and promote tourism, maintain competiveness of india as a tourist destination and improve and expand existing tourism products to ensure employment generation and economic growth.in this section, we provide information about various tourist destination, modes of travel,accomdation and approved travel agents.</span>
+</div>
+<div class="col-sm-2">
+<h3 style="padding-left:10%;font-weight:bold;"> Useful Link </h3>
+<a href="index.jsp"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;"> Home </span><br></a>
+<a href="membership.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;"> Membership</span><br></a>
+<a href="visa.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;"> Visa Policy</span><br></a>
+<a href="train.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;"> How to reach</span><br></a>
+<a href="foreign.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;"> Destination</span><br></a>
+<a href="login.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;">Login</span><br></a>
+<a href="reviwe.html"><span style="color:white;padding-left:15%;font-size:18px;padding-top:10%;font-weight:bold;">Review</span><br></a>
+</div>
+<div class="col-sm-3">
+<h3 style="padding-left:10%; font-weight:bold;">Contact Us</h3>
+<span class="fa fa-phone" style="font-size:30px; padding-left:10%;padding-top:5%"></span>
+<span style="padding-top:-15%;font-size:18px;
+">Tourism<br>LIFE IS LIKE A JOURNEY</span>
+</div>
+<div class="col-sm-4 d2">
+<h3 style="padding-left:10%; font-weight:bold;text-align:center;">Photo Gallery</h3>
+<div class="d1 hvr hvr-pop"><img src="img/bus4.jpg" style="height:80px;width:100%"></div>
+<div class="d1 hvr hvr-pop"><img src="img/bus3.jpg" style="height:80px;width:100%"></div>
+<div class="d1 hvr hvr-pop"><img src="img/c7.jpg" style="height:80px;width:100%"></div>
+<div class="d1 hvr hvr-pop"><img src="img/bus2.jpg" style="height:80px;width:100%"></div>
+<div class="d1 hvr hvr-pop"><img src="img/c6.jpg" style="height:80px;width:100%"></div>
+</div>
+</div>
+<div class="row" style="background:black;color:white;font-size:28px ;font-family:algerian">
+<marquee>Developed & Designed By Anushka Singh</marquee> </div>
+    </body>
+</html>
+
+    </body>
+</html>

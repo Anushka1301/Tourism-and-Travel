@@ -1,0 +1,26 @@
+SMAP
+dynamic_jsp.java
+JSP
+*S JSP
+*F
++ 0 dynamic.jsp
+AdminZone/dynamic.jsp
++ 1 header.jsp
+AdminZone/../AdminZone/header.jsp
++ 2 footer.jsp
+AdminZone/../AdminZone/footer.jsp
+*L
+1,18:52
+5#1,29:70
+18#0,12:98
+30,6:111
+35,2:117
+37:119,3
+38:122
+39:123,3
+40:126
+41:127,3
+42,5:130
+5#2,23:135
+46#0,3:157
+*E

@@ -1,0 +1,20 @@
+SMAP
+responcemgmt_jsp.java
+JSP
+*S JSP
+*F
++ 0 responcemgmt.jsp
+AdminZone/responcemgmt.jsp
++ 1 header.jsp
+AdminZone/../AdminZone/header.jsp
+*L
+5,16:51
+5#1,29:67
+20#0,14:95
+34,6:110
+39,2:116
+41,5:118,3
+46:133
+47:134,3
+48,6:137
+*E
